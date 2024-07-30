@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(202, 86%, 94%);
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.header button{
+    background-color: transparent;
+    border: none;
+}
+.input > input{
+    border: none;
+}
+.mort-amt {
+    border: 1px solid black;
+}
+.mort-amt div{
+    background-color: hsl(202, 86%, 94%);
+    padding: 7px 12px;
+}
+.terms{
+    border: 1px solid black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.left{
+    background-color: white;
+    padding: 30px;
+}
+.left input{
+    height: 30px;
+}
+.label{
+    padding-bottom: 7px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
